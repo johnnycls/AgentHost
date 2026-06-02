@@ -1,0 +1,14 @@
+[package]
+name = "sample-client-agent"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+client-runtime = { path = "../ClientRuntimeRust", features = ["display"] }
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+opt-level = "s"
+lto = true

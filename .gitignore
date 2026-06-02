@@ -1,0 +1,17 @@
+# Rust build
+target/
+
+# Moonbit build
+_build/
+
+# C build
+*.o
+
+# Editor / OS
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Node
+node_modules/

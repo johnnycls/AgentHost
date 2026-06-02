@@ -1,0 +1,15 @@
+{
+  "import": [
+    "agenthost/clientruntime"
+  ],
+  "link": {
+    "wasm": {
+      "exports": ["run"],
+      "export-memory-name": "memory"
+    },
+    "wasm-gc": {
+      "exports": ["run"],
+      "export-memory-name": "memory"
+    }
+  }
+}

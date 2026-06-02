@@ -1,0 +1,22 @@
+{
+  "clients": [
+    {
+      "name": "client-rust",
+      "path": "client_rust.wasm",
+      "description": "Sample Rust client — computes 7*6 and renders a card using client-runtime crate.",
+      "permission": ["host_display"]
+    },
+    {
+      "name": "client-moonbit",
+      "path": "client_moonbit.wasm",
+      "description": "Sample Moonbit client — computes 3*14 and renders a card using @clientruntime.",
+      "permission": ["host_display", "host_log"]
+    },
+    {
+      "name": "client-c",
+      "path": "client_c.wasm",
+      "description": "Sample C client — computes 10*10 and renders a card using clang+wasm-ld.",
+      "permission": ["host_display", "host_log"]
+    }
+  ]
+}
